@@ -1,0 +1,25 @@
+{
+  "name": "blog-vue3-statemachine",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash.debounce": "^4.0.7",
+    "localforage": "^1.10.0",
+    "lodash.debounce": "^4.0.8",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "gh-pages": "^4.0.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
